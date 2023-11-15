@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 138.17 138.23">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #24633f;
+        stroke-width: 7.2px;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        fill: none;
+      }
+
+      .cls-5 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-2, .cls-6 {
+        stroke-width: 0px;
+      }
+
+      .cls-3 {
+        stroke-miterlimit: 4;
+        stroke-width: 7.2px;
+      }
+
+      .cls-3, .cls-4 {
+        stroke: #45bc77;
+      }
+
+      .cls-4 {
+        stroke-miterlimit: 4;
+        stroke-width: 7.2px;
+      }
+
+      .cls-7 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-8 {
+        clip-path: url(#clippath-4);
+      }
+
+      .cls-9 {
+        clip-path: url(#clippath-3);
+      }
+
+      .cls-10 {
+        clip-path: url(#clippath-2);
+      }
+
+      .cls-11 {
+        clip-path: url(#clippath-7);
+      }
+
+      .cls-12 {
+        clip-path: url(#clippath-8);
+      }
+
+      .cls-13 {
+        clip-path: url(#clippath-6);
+      }
+
+      .cls-14 {
+        clip-path: url(#clippath-5);
+      }
+
+      .cls-6 {
+        fill: #45bc77;
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-2" x="8.2" y="8.13" width="121.97" height="121.97"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="cls-2" x="6.17" y="8.13" width="33.05" height="32.53"/>
+    </clipPath>
+    <clipPath id="clippath-2">
+      <rect class="cls-2" x="97.06" y="8.13" width="33.05" height="32.53"/>
+    </clipPath>
+    <clipPath id="clippath-3">
+      <rect class="cls-2" x="97.06" y="97.58" width="33.05" height="32.53"/>
+    </clipPath>
+    <clipPath id="clippath-4">
+      <rect class="cls-2" x="6.17" y="97.58" width="33.05" height="32.53"/>
+    </clipPath>
+    <clipPath id="clippath-5">
+      <rect class="cls-2" x="56.99" y="5.05" width="24.39" height="24.39" transform="translate(8.07 53.97) rotate(-45)"/>
+    </clipPath>
+    <clipPath id="clippath-6">
+      <rect class="cls-2" x="5.02" y="57.95" width="24.39" height="24.39" transform="translate(-42.22 29.1) rotate(-41.58)"/>
+    </clipPath>
+    <clipPath id="clippath-7">
+      <rect class="cls-2" x="56.99" y="108.79" width="24.39" height="24.39" transform="translate(-65.28 84.36) rotate(-45)"/>
+    </clipPath>
+    <clipPath id="clippath-8">
+      <rect class="cls-2" x="108.73" y="57.95" width="24.39" height="24.39" transform="translate(-14.18 106.05) rotate(-45)"/>
+    </clipPath>
+  </defs>
+  <g class="cls-5">
+    <g>
+      <g class="cls-7">
+        <rect class="cls-1" x="13.75" y="12.44" width="109.28" height="109.28" rx="22.64" ry="22.64"/>
+      </g>
+      <g class="cls-10">
+        <rect class="cls-1" x="15.34" y="12.44" width="109.28" height="109.28" rx="22.64" ry="22.64"/>
+      </g>
+      <g class="cls-9">
+        <rect class="cls-1" x="15.34" y="16.51" width="109.28" height="109.28" rx="22.64" ry="22.64"/>
+      </g>
+      <g class="cls-8">
+        <rect class="cls-1" x="13.75" y="16.51" width="109.28" height="109.28" rx="22.64" ry="22.64"/>
+      </g>
+      <g class="cls-14">
+        <rect class="cls-3" x="26.76" y="23.32" width="84.85" height="84.85" rx="17.08" ry="17.08" transform="translate(-26.23 68.18) rotate(-45)"/>
+      </g>
+      <g class="cls-13">
+        <rect class="cls-4" x="23.21" y="30.61" width="84.85" height="84.85" rx="17.08" ry="17.08" transform="translate(-31.94 61.96) rotate(-41.58)"/>
+      </g>
+      <g class="cls-11">
+        <rect class="cls-3" x="26.76" y="30.06" width="84.85" height="84.85" rx="17.08" ry="17.08" transform="translate(-30.99 70.15) rotate(-45)"/>
+      </g>
+      <g class="cls-12">
+        <rect class="cls-3" x="30" y="27.72" width="84.85" height="84.85" rx="17.08" ry="17.08" transform="translate(-28.39 71.76) rotate(-45)"/>
+      </g>
+      <path class="cls-6" d="m63.07,35.31c2.12-5.65,10.11-5.65,12.23,0l6.27,16.71c.61,1.64,1.86,2.96,3.46,3.68l16.75,7.45c5.17,2.3,5.17,9.64,0,11.94l-16.75,7.45c-1.6.71-2.85,2.04-3.46,3.68l-6.27,16.71c-2.12,5.65-10.11,5.65-12.23,0l-6.27-16.71c-.61-1.64-1.86-2.96-3.46-3.68l-16.75-7.45c-5.17-2.3-5.17-9.64,0-11.94l16.75-7.45c1.6-.71,2.85-2.04,3.46-3.68l6.27-16.71Z"/>
+    </g>
+  </g>
+</svg>
