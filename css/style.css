@@ -2,25 +2,22 @@
 :root {
     --primary: #51DD8C;
     --secondary: #D5F7E3;
+    --background: #DEE8E2;
+    --purple: #CFA6CE;
     --white: #FFFFFF;
     --black: #000000;
-    --pd-36: 36px;
-    --grey:  #cccccc;
-
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
+    --pd-120: 0px 120px;
+    --grey:  #CCCCCC;
 }
 
 /*=============== Globa Styles ==============*/
-
 body {
     font-family: Helvetica, sans-serif;
+    background-color: var(--background);
 }
 
 .textHighlight {
-    background-color: var(--primary);
-    border-radius: 6px;
+    background-color: var(--purple);
     padding: 5px;
 }
 
@@ -29,21 +26,31 @@ body {
     justify-content: space-between;
     gap: 32px;
     align-items: center;
-    padding:  var(--pd-36);
+    padding:  var(--pd-120);
 }
 
-ul {
-    list-style: none;
+button {
+    outline: none;
+    border: none;
 }
 
 /*=============== Header ==============*/
-
 .c_header__container {
     color: var(--black);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 36px;
+    padding: 32px 36px;
+    background-color: var(--black);
+    padding: 16px 120px;
+}
+
+.c_header-button {
+    background-color: var(--primary);
+    color: var(--white);
+    padding: 10px 38px;
+    border-radius: 7px;
+    font-weight: 600;
 }
 
 nav ul {
@@ -53,12 +60,15 @@ nav ul {
 
 nav ul li {
     margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 nav a {
     text-decoration: none;
-    color: var(--black);
-    font-weight: bold;
+    color: var(--white);
+    font-weight: 500;
 }
 
 .logo {
@@ -74,6 +84,7 @@ nav a {
     font-size: 32px;
     font-weight: bold;
 }
+
 /*=============== Hero Section ==============*/
 .c_hero__container img {
     flex: 1;
@@ -120,10 +131,24 @@ nav a {
     border-radius: 8px;
 }
 
+.google-play-store,
+.apple-store 
+{
+    color: var(--grey);
+    font-weight: light;
+}
+
 .c_hero__buttons img,
-.c_hero__buttons img {
-    width: 40px;
-    margin-right: 10px;
+.c_hero__buttons img 
+{
+    width: 35px;
+    margin-right: 15px;
+}
+
+
+.store_type-container p 
+{
+    font-size: 20px;
 }
 
 /*=============== Steps Section ==============*/
