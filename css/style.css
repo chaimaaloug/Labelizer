@@ -1,13 +1,17 @@
 
 :root {
+    /* colors */
     --primary: #51DD8C;
     --secondary: #D5F7E3;
     --background: #DEE8E2;
+
     --purple: #CFA6CE;
     --white: #FFFFFF;
     --black: #000000;
-    --pd-120: 0px 120px;
     --grey:  #CCCCCC;
+
+    /* */
+    --pd-120: 0px 120px;
 }
 
 /*=============== Globa Styles ==============*/
@@ -17,14 +21,13 @@ body {
 }
 
 .textHighlight {
-    background-color: var(--purple);
+    background-color: var(--primary);
     padding: 5px;
 }
 
 .c_container {
     display: flex;
     justify-content: space-between;
-    gap: 32px;
     align-items: center;
     padding:  var(--pd-120);
 }
@@ -86,6 +89,12 @@ nav a {
 }
 
 /*=============== Hero Section ==============*/
+.c_hero__container {
+    align-items: flex-start;
+    padding-top: 44px;
+    padding-bottom: 44px;
+}
+
 .c_hero__container img {
     flex: 1;
     max-width: 45%;
@@ -95,6 +104,9 @@ nav a {
 .c_hero__description {
     display: flex;
     flex-direction: column;
+    width: 507px;
+    height: 355px;
+    gap: 18px;
 }
 
 .c_hero__description h2 {
@@ -115,10 +127,6 @@ nav a {
     color: var(--white);
     padding: 14px 28px;
     border-radius: 12px;
-}
-
-.c_hero__buttons {
-    display: flex;
 }
 
 .c_hero__buttons a {
@@ -145,19 +153,168 @@ nav a {
     margin-right: 15px;
 }
 
-
 .store_type-container p 
 {
     font-size: 20px;
 }
 
+.c-hero_nb_container {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    font-weight: bold;
+}
+
+.c-hero_nb_download {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.c-hero_nb_download p:first-child {
+    font-size: 22px;
+    margin-top: 15px;
+}
+
+.c-hero_nb_download img {
+    margin-bottom: -12px;
+}
+
+.c-green_container {
+    display: flex;
+    width: 498px;
+    height: 494px;
+    border-radius: 24px;
+    background: var(--primary);
+    align-items: center;
+    justify-content: center;
+}
+
 /*=============== Steps Section ==============*/
-.c_steps__container {
+.c-steps_item {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 58px;
+    padding-bottom: 58px;
 }
 
 /*============== Statistics Section =========*/
+.c_statistics__container {
+    text-align: center;
+    padding: 55px 160px;
+    color: var(--white);
+
+    background-image: url('../assets/backgrounds/statistics-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.c_statistics_details h3 {
+    color: var(--primary);
+    font-size: 26px;
+    margin-bottom: 0;
+}
+
+/*============== Testimonials Section =========*/
+.c_testimonials__container {
+  padding-top: 65px;
+  padding-bottom: 65px;
+}
+
+.c_testimonials__container h2 {
+    text-align: center;
+    padding-bottom: 32px;
+}
+
+.c_testimonials_highlight {
+    background-color: var(--purple);
+    padding: 5px;
+}
+
+.c_testimonials__card {
+    display: flex;
+    color: var(--black);
+    border-radius: 0px 55px;
+    background-color: var(--white);
+    width: 386px;
+    height: 222px;
+}
+
+.c_testimonials__note {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.c_testimonials__note h3 {
+    margin-bottom: 0px;
+}
+
+.c_testimonials__note img {
+    width: 123px;
+}
+
 
 
 /*============== Footer =========*/
 
+
+
+
+/* Pour les écrans de taille moyenne */
+@media screen and (max-width: 1024px) {
+    .c_hero__container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .c_hero__container img {
+        max-width: 100%;
+        margin-top: 20px;
+    }
+
+    .c_hero__description {
+        width: 100%;
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    .c_hero__buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* Pour les écrans plus petits, comme les smartphones */
+@media screen and (max-width: 768px) {
+    .c_container {
+        flex-direction: column;
+    }
+
+    .c_hero__container img {
+        max-width: 100%;
+    }
+
+    .c_hero__description {
+        width: 100%;
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    .c_hero__buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .c-hero_nb_container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
