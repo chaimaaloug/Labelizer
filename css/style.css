@@ -377,3 +377,38 @@ input {
     font-size: 14px;
     font-weight: lighter;
 }
+
+
+@media screen and (max-width: 768px) {
+
+    .c_header__container nav {
+        display: none;
+    }
+
+    .c_header__container {
+        padding: 25px;
+    }
+
+    .c_container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .c_hero__container {
+        padding: 24px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .c-green_container {
+        display: none;
+    }
+
+    .c_hero__buttons,
+    .c-hero_nb_container {
+        align-items: center;
+        justify-content: center;
+    }
+}
