@@ -23,6 +23,7 @@ body {
 .textHighlight {
     background-color: var(--primary);
     padding: 5px;
+    color: var(--white);
 }
 
 .c_container {
