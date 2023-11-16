@@ -190,15 +190,23 @@ nav a {
 
 .c-green_container {
     display: flex;
-    max-width: 498px;
-    max-height: 494px;
+    width: 100%; /* Utilisez la largeur totale du conteneur parent */
+    max-width: 498px; /* Vous pouvez ajuster selon vos préférences */
+    height: auto; /* Pour maintenir le rapport hauteur/largeur et éviter l'écrasement sur des écrans plus petits */
     border-radius: 24px;
     background: var(--primary);
+    align-items: center;
+    justify-content: center;
 }
 
 .c-green_container img {
-    margin-left: -78px;
+    max-width: 100%;
+    height: auto; /* Pour maintenir le rapport hauteur/largeur */
 }
+
+/*.c-green_container img {
+    margin-left: -78px;
+}*/
 
 /*=============== Steps Section ==============*/
 .c-steps_item {
@@ -436,6 +444,18 @@ input {
         flex-direction: column;
         align-items: flex-start;
         gap: 40px;
+    }
+
+    .c_footer__info {
+        padding: 0;
+    }
+
+    .newsletterContainer {
+        padding-bottom: 0px;
+    }
+
+    .c_footer__images {
+        margin-top: 45px;
     }
   
 }
