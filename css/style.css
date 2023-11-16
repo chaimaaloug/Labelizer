@@ -457,5 +457,14 @@ input {
     .c_footer__images {
         margin-top: 45px;
     }
-  
+
+    .mobile-responsive {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .c_hero__buttons {
+        flex-direction: column;
+    }
+
 }
