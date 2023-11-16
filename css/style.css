@@ -11,7 +11,7 @@
     --black: #000000;
     --grey:  #CCCCCC;
 
-    --pd-120: 0px 120px;
+    --pd-160: 0px 160px;
 }
 
 /*=============== Globa Styles ==============*/
@@ -30,7 +30,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding:  var(--pd-120);
+    padding:  var(--pd-160);
 }
 
 .textBold {
@@ -59,7 +59,7 @@ a {
     align-items: center;
     padding: 32px 36px;
     background-color: var(--black);
-    padding: 16px 120px;
+    padding: 16px 160px;
 }
 
 .c_header-button {
