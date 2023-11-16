@@ -197,6 +197,10 @@ nav a {
     background: var(--primary);
 }
 
+.c-green_container img {
+    margin-left: -78px;
+}
+
 /*=============== Steps Section ==============*/
 .c-steps_item {
     text-align: center;
