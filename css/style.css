@@ -208,7 +208,11 @@ nav a {
 }
 
 .c-steps_item h3 {
-    font-size: 28px;
+    font-size: 32px;
+}
+
+.c-steps_item p {
+   font-weight: 600;
 }
 
 /*============== Statistics Section =========*/
@@ -216,7 +220,6 @@ nav a {
     text-align: center;
     padding: 55px 160px;
     color: var(--white);
-
     background-image: url('../assets/backgrounds/statistics-bg.png');
     background-size: cover;
     background-position: center;
@@ -226,7 +229,7 @@ nav a {
 
 .c_statistics_details h3 {
     color: var(--primary);
-    font-size: 26px;
+    font-size: 38px;
     margin-bottom: 0;
 }
 
@@ -269,13 +272,6 @@ nav a {
 
 .c_testimonials__note img {
     width: 123px;
-}
-
-.c_testimonials_arrows {
-    display: flex;
-    margin-top: 32px;
-    justify-content: flex-end;
-    padding-right: 120px;
 }
 
 /*============== Footer =========*/
@@ -330,7 +326,6 @@ nav a {
     text-decoration: underline;
 }
 
-
 .newsletterContainer {
     padding-bottom: 65px;
 }
@@ -364,7 +359,6 @@ input {
     font-weight: 600;
 }
   
-
 .sendButton {
     background-color: var(--primary);
     font-size: 20px; 
