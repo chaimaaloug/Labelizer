@@ -55,7 +55,7 @@ a {
 .c_header__container {
     color: var(--black);
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 32px 36px;
     background-color: var(--black);
@@ -105,6 +105,7 @@ nav a {
 /*=============== Hero Section ==============*/
 .c_hero__container {
     align-items: flex-start;
+    justify-content: space-around;
     padding-top: 94px;
     padding-bottom: 44px;
 }
@@ -112,9 +113,7 @@ nav a {
 .c_hero__description {
     display: flex;
     flex-direction: column;
-    width: 507px;
-    height: 355px;
-    gap: 18px;
+    gap: 12px;
 }
 
 .c_hero__description h2 {
@@ -287,7 +286,7 @@ nav a {
     background-repeat: no-repeat;
     background-image: url('../assets/backgrounds/footer-bg.svg');
     color: var(--white);
-    padding: 55Px;
+    padding: 55px;
 }
 
 .c_footer__info {
@@ -386,6 +385,10 @@ input {
     }
 
     .c_header__container {
+        justify-content: space-between;
+    }
+
+    .c_header__container {
         padding: 25px;
     }
 
@@ -393,6 +396,18 @@ input {
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        padding: 0;
+        gap: 55px;
+    }
+
+    .c-steps_item  {
+        padding: 0px;
+        max-width: 100%;
+        padding-bottom: 38px;
+    }
+
+    .c-steps_item h3  {
+        margin: 0px;
     }
 
     .c_hero__container {
@@ -402,13 +417,25 @@ input {
         text-align: center;
     }
 
-    .c-green_container {
-        display: none;
-    }
-
     .c_hero__buttons,
     .c-hero_nb_container {
         align-items: center;
         justify-content: center;
     }
+
+    .c_statistics__container {
+        padding: 54px 25px;
+    }
+
+    .c-green_container {
+        margin-bottom: 64px;
+    } 
+
+    .c_footer__images,
+    .c_footer__links {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 40px;
+    }
+  
 }
